@@ -16,8 +16,10 @@ systems. Still, some functionality may not work as intended when using other ope
 ## How to Run
 - Method 1 (Program): On macOS run the Sonalyze.jar file provided, this requires either JRE or JDK to
 be installed.
-- Method 2 (IntelliJ): On macOS open up the sonalyze folder as an IntelliJ project, goto Sonalyze.kt, 
+- Method 2 (IntelliJ): On macOS open up the sonalyze folder as an IntelliJ project, goto `src/main/kotlin/org/sonalyze/Sonalyze.kt`, 
 run the main function.
+
+There are sample datasets provided in the `samples` folder. Drag these onto the desktop to make them usable within the application. This will also work with other `.csv` files.
 
 ## Features
 - Offline Compatibility
@@ -62,7 +64,7 @@ the wide array of Java utilities and libraries with less boilerplate.
 development devices, so it was substituted for Maven.
 
 ### Architecture 
-- This app doesn't follow a traditional MVC architecture. The app has a service and page-driven 
+- This app doesn't follow a traditio3nal MVC architecture. The app has a service and page-driven 
 architecture with pages acting as Controllers AND Viewers. Models then can be attached to pages as
 a variable. Services can be made as singletons to assist Pages in place of direct Controllers. Given 
 the vision of the project this is well-suited for the following reasons: 
