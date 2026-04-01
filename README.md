@@ -62,7 +62,7 @@ the wide array of Java utilities and libraries with less boilerplate.
 development devices, so it was substituted for Maven.
 
 ### Architecture 
-- This app doesn't follow a traditio3nal MVC architecture. The app has a service and page-driven 
+- This app doesn't follow a traditional MVC architecture. The app has a service and page-driven 
 architecture with pages acting as Controllers AND Viewers. Models then can be attached to pages as
 a variable. Services can be made as singletons to assist Pages in place of direct Controllers. Given 
 the vision of the project this is well-suited for the following reasons: 
