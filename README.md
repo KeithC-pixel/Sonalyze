@@ -73,7 +73,8 @@ almost guarantees that JavaFX doesn't stall or have unexpected bugs; the Page ob
 declared which keeps the KeyBoundButton (and keybind) functionality in sync.
 - - Reduction of Boilerplate — Functionality for a page, stays in the page.
 - - Scalability — and pluggability, a goal for this project in the future is to be easily able to
-integrate community plugins.
+integrate community plugins. By keeping content within the page, it creates and sets the standard for
+any future ecosystem.
 
 
 
